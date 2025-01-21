@@ -48,7 +48,7 @@ public class API_007_NON_BDD {
 
         response = r.when().log().all().get();
 
-        vr = response.then().log().all().statusCode(200);
+        vr = response.then().log().all().statusCode(404);
 
 
     }
