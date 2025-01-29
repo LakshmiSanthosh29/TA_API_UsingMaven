@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven">
+
+     <parameter name="browser" value="firefox"></parameter>
+
+
+
+        <classes>
+            <class name="org.lucky.Ex_03_TestNG_Examples.API_017_TestNG_Parameters">
+
+            </class>
+        </classes>
+    </test>
+</suite>

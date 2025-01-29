@@ -4,11 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbdb5d5e-aeb2-4d0f-8053-3a06578227ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_02_RestAssure_Basics/POST/API_008_Post_BDD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_02_RestAssure_Basics/POST/API_009_Post_NON_BDD.java" afterDir="false" />
+    <list default="true" id="dbdb5d5e-aeb2-4d0f-8053-3a06578227ae" name="Changes" comment="api">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_02_RestAssure_Basics/DELETE/API_012_DELETE_NONBDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_02_RestAssure_Basics/PATCH/API_011_PATCH_NONBDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_02_RestAssure_Basics/PUT/API_010_PUT_NONBDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_03_TestNG_Examples/API_013_TestNG_Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_03_TestNG_Examples/API_014_TestNG_Ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_03_TestNG_Examples/API_015_TestNG_DependsOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_03_TestNG_Examples/API_015_TestNG_Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_03_TestNG_Examples/API_017_TestNG_Parameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_03_TestNG_Examples/API_018_TestNG_Enabled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_03_TestNG_Examples/API_019_TestNG_AlwaysRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_03_TestNG_Examples/API_020_TestNG_Invocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_04_Assertions/API_021_ResrAssured_Assertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_04_Assertions/API_022_TestNG_Assertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_04_Assertions/API_023_AssertJ_Assertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_04_Assertions/API_024_ResrAssured_TestNG_AssertJ_Assertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-Group-qa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-Group-reg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-Group-sanity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-Parameter.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_02_RestAssure_Basics/GET/API_007_NON_BDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_02_RestAssure_Basics/GET/API_007_NON_BDD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,23 +42,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "LakshmiSanthosh29"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LakshmiSanthosh29&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LakshmiSanthosh29/TA_API_UsingMaven.git",
-    "accountId": "2cfee422-743d-4d37-b6c9-55eabe08312c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LakshmiSanthosh29/TA_API_UsingMaven.git&quot;,
+    &quot;accountId&quot;: &quot;2cfee422-743d-4d37-b6c9-55eabe08312c&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2q5rwALZgG1DNFI1WoPw0VOcDPH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,7 +77,25 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.API_008_Post_BDD.executor": "Run",
     "TestNG.API_009_Post_NON_BDD.executor": "Run",
+    "TestNG.API_010_PUT_NONBDD.executor": "Run",
+    "TestNG.API_011_PATCH_NONBDD.executor": "Run",
+    "TestNG.API_011_PATCH_NONBDD.test_Patch_NonBdd.executor": "Debug",
+    "TestNG.API_012_DELETE_NONBDD.executor": "Run",
+    "TestNG.API_013_TestNG_Ex1.executor": "Run",
+    "TestNG.API_014_TestNG_Ex2.executor": "Run",
+    "TestNG.API_015_TestNG_DependsOn.executor": "Run",
+    "TestNG.API_015_TestNG_DependsOn.serverStartedOk.executor": "Run",
+    "TestNG.API_018_TestNG_Enabled.executor": "Run",
+    "TestNG.API_019_TestNG_AlwaysRun.executor": "Run",
+    "TestNG.API_020_TestNG_Invocation.executor": "Run",
+    "TestNG.API_021_ResrAssured_Assertion.executor": "Run",
+    "TestNG.API_022_TestNG_Assertion.executor": "Run",
+    "TestNG.API_024_ResrAssured_TestNG_AssertJ_Assertion.executor": "Run",
+    "TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng-Group-qa.xml.executor": "Run",
+    "TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng-Group-reg.xml.executor": "Run",
+    "TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng-Group-sanity.xml.executor": "Run",
     "TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng-NonBDD-GET.xml.executor": "Run",
+    "TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng-Parameter.xml.executor": "Run",
     "TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng.xml.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -71,30 +108,17 @@
       <recent name="C:\Users\laksh\IdeaProjects\TA_API_Practice_UsingMaven" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.API_009_Post_NON_BDD">
-    <configuration name="API_003_NoDesignPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.lucky.Ex_01_Sample.API_003_NoDesignPattern" />
+  <component name="RunManager" selected="TestNG.API_024_ResrAssured_TestNG_AssertJ_Assertion">
+    <configuration name="API_019_TestNG_AlwaysRun" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TA_API_Practice_UsingMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.lucky.Ex_01_Sample.*" />
+          <option name="PATTERN" value="org.lucky.Ex_03_TestNG_Examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="API_008_Post_BDD" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TA_API_Practice_UsingMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.lucky.Ex_02_RestAssure_Basics.POST.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.lucky.Ex_02_RestAssure_Basics.POST" />
-      <option name="MAIN_CLASS_NAME" value="org.lucky.Ex_02_RestAssure_Basics.POST.API_008_Post_BDD" />
+      <option name="PACKAGE_NAME" value="org.lucky.Ex_04_TestNG_Examples" />
+      <option name="MAIN_CLASS_NAME" value="org.lucky.Ex_03_TestNG_Examples.API_019_TestNG_AlwaysRun" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -102,16 +126,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="API_009_Post_NON_BDD" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="API_020_TestNG_Invocation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TA_API_Practice_UsingMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.lucky.Ex_02_RestAssure_Basics.POST.*" />
+          <option name="PATTERN" value="org.lucky.Ex_03_TestNG_Examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.lucky.Ex_02_RestAssure_Basics.POST" />
-      <option name="MAIN_CLASS_NAME" value="org.lucky.Ex_02_RestAssure_Basics.POST.API_009_Post_NON_BDD" />
+      <option name="PACKAGE_NAME" value="org.lucky.Ex_04_TestNG_Examples" />
+      <option name="MAIN_CLASS_NAME" value="org.lucky.Ex_03_TestNG_Examples.API_020_TestNG_Invocation" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -119,20 +143,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng-NonBDD-GET.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="API_021_ResrAssured_Assertion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TA_API_Practice_UsingMaven" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-NonBDD-GET.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lucky.Ex_04_Assertions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.lucky.Ex_04_Assertions" />
+      <option name="MAIN_CLASS_NAME" value="org.lucky.Ex_04_Assertions.API_021_ResrAssured_Assertion" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="API_022_TestNG_Assertion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TA_API_Practice_UsingMaven" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lucky.Ex_04_Assertions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.lucky.Ex_04_Assertions" />
+      <option name="MAIN_CLASS_NAME" value="org.lucky.Ex_04_Assertions.API_022_TestNG_Assertion" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="API_024_ResrAssured_TestNG_AssertJ_Assertion" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TA_API_Practice_UsingMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lucky.Ex_04_Assertions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.lucky.Ex_04_Assertions" />
+      <option name="MAIN_CLASS_NAME" value="org.lucky.Ex_04_Assertions.API_024_ResrAssured_TestNG_AssertJ_Assertion" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -141,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.API_009_Post_NON_BDD" />
-        <item itemvalue="TestNG.API_008_Post_BDD" />
-        <item itemvalue="TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng-NonBDD-GET.xml" />
-        <item itemvalue="TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng.xml" />
-        <item itemvalue="Application.API_003_NoDesignPattern" />
+        <item itemvalue="TestNG.API_024_ResrAssured_TestNG_AssertJ_Assertion" />
+        <item itemvalue="TestNG.API_022_TestNG_Assertion" />
+        <item itemvalue="TestNG.API_021_ResrAssured_Assertion" />
+        <item itemvalue="TestNG.API_020_TestNG_Invocation" />
+        <item itemvalue="TestNG.API_019_TestNG_AlwaysRun" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +213,19 @@
       <option name="presentableId" value="Default" />
       <updated>1733963515266</updated>
     </task>
+    <task id="LOCAL-00001" summary="api">
+      <option name="closed" value="true" />
+      <created>1737431723613</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737431723613</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="api" />
+    <option name="LAST_COMMIT_MESSAGE" value="api" />
   </component>
 </project>
