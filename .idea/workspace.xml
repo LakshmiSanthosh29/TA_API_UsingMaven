@@ -5,25 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbdb5d5e-aeb2-4d0f-8053-3a06578227ae" name="Changes" comment="api">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_02_RestAssure_Basics/DELETE/API_012_DELETE_NONBDD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_02_RestAssure_Basics/PATCH/API_011_PATCH_NONBDD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_02_RestAssure_Basics/PUT/API_010_PUT_NONBDD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_03_TestNG_Examples/API_013_TestNG_Ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_03_TestNG_Examples/API_014_TestNG_Ex2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_03_TestNG_Examples/API_015_TestNG_DependsOn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_03_TestNG_Examples/API_015_TestNG_Groups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_03_TestNG_Examples/API_017_TestNG_Parameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_03_TestNG_Examples/API_018_TestNG_Enabled.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_03_TestNG_Examples/API_019_TestNG_AlwaysRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_03_TestNG_Examples/API_020_TestNG_Invocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_04_Assertions/API_021_ResrAssured_Assertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_04_Assertions/API_022_TestNG_Assertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_04_Assertions/API_023_AssertJ_Assertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_04_Assertions/API_024_ResrAssured_TestNG_AssertJ_Assertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-Group-qa.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-Group-reg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-Group-sanity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-Parameter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_05_PayloadManagement/API_025_ResrAssured_Payload_Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_05_PayloadManagement/API_026_ResrAssured_Payload_POJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_05_PayloadManagement/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_05_PayloadManagement/BookingDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_05_PayloadManagement/gson/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_05_PayloadManagement/gson/BookingDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_05_PayloadManagement/gson_demo/API_027_ResrAssured_Gson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_05_PayloadManagement/gson_demo/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_05_PayloadManagement/gson_demo/BookingResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_05_PayloadManagement/gson_demo/Bookingdates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_05_PayloadManagement/jackson_demo/API_028_ResrAssured_Jckson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_05_PayloadManagement/jackson_demo/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_05_PayloadManagement/jackson_demo/BookingResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lucky/Ex_05_PayloadManagement/jackson_demo/Bookingdates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -65,118 +60,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.API_002.executor": "Run",
-    "Application.API_003_NoDesignPattern.executor": "Run",
-    "Application.API_004_BuilderPatternDesignPattern.executor": "Run",
-    "Application.API_005_GET_BDDStyle.executor": "Run",
-    "Application.API__001.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.API_008_Post_BDD.executor": "Run",
-    "TestNG.API_009_Post_NON_BDD.executor": "Run",
-    "TestNG.API_010_PUT_NONBDD.executor": "Run",
-    "TestNG.API_011_PATCH_NONBDD.executor": "Run",
-    "TestNG.API_011_PATCH_NONBDD.test_Patch_NonBdd.executor": "Debug",
-    "TestNG.API_012_DELETE_NONBDD.executor": "Run",
-    "TestNG.API_013_TestNG_Ex1.executor": "Run",
-    "TestNG.API_014_TestNG_Ex2.executor": "Run",
-    "TestNG.API_015_TestNG_DependsOn.executor": "Run",
-    "TestNG.API_015_TestNG_DependsOn.serverStartedOk.executor": "Run",
-    "TestNG.API_018_TestNG_Enabled.executor": "Run",
-    "TestNG.API_019_TestNG_AlwaysRun.executor": "Run",
-    "TestNG.API_020_TestNG_Invocation.executor": "Run",
-    "TestNG.API_021_ResrAssured_Assertion.executor": "Run",
-    "TestNG.API_022_TestNG_Assertion.executor": "Run",
-    "TestNG.API_024_ResrAssured_TestNG_AssertJ_Assertion.executor": "Run",
-    "TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng-Group-qa.xml.executor": "Run",
-    "TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng-Group-reg.xml.executor": "Run",
-    "TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng-Group-sanity.xml.executor": "Run",
-    "TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng-NonBDD-GET.xml.executor": "Run",
-    "TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng-Parameter.xml.executor": "Run",
-    "TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng.xml.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.API_002.executor&quot;: &quot;Run&quot;,
+    &quot;Application.API_003_NoDesignPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.API_004_BuilderPatternDesignPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.API_005_GET_BDDStyle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.API__001.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.API_008_Post_BDD.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.API_009_Post_NON_BDD.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.API_010_PUT_NONBDD.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.API_011_PATCH_NONBDD.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.API_011_PATCH_NONBDD.test_Patch_NonBdd.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.API_012_DELETE_NONBDD.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.API_013_TestNG_Ex1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.API_014_TestNG_Ex2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.API_015_TestNG_DependsOn.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.API_015_TestNG_DependsOn.serverStartedOk.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.API_018_TestNG_Enabled.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.API_019_TestNG_AlwaysRun.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.API_020_TestNG_Invocation.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.API_021_ResrAssured_Assertion.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.API_022_TestNG_Assertion.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.API_024_ResrAssured_TestNG_AssertJ_Assertion.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.API_025_ResrAssured_Payload_Map.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.API_025_ResrAssured_Payload_Map.test_POST.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.API_025_ResrAssured_Payload_POJO.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.API_026_ResrAssured_Payload_POJO.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.API_027_ResrAssured_Gson.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng-Group-qa.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng-Group-reg.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng-Group-sanity.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng-NonBDD-GET.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng-Parameter.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/laksh/IdeaProjects/TA_API_Practice_UsingMaven&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\laksh\IdeaProjects\TA_API_Practice_UsingMaven" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.API_024_ResrAssured_TestNG_AssertJ_Assertion">
-    <configuration name="API_019_TestNG_AlwaysRun" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TA_API_Practice_UsingMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.lucky.Ex_03_TestNG_Examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.lucky.Ex_04_TestNG_Examples" />
-      <option name="MAIN_CLASS_NAME" value="org.lucky.Ex_03_TestNG_Examples.API_019_TestNG_AlwaysRun" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="API_020_TestNG_Invocation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TA_API_Practice_UsingMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.lucky.Ex_03_TestNG_Examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.lucky.Ex_04_TestNG_Examples" />
-      <option name="MAIN_CLASS_NAME" value="org.lucky.Ex_03_TestNG_Examples.API_020_TestNG_Invocation" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="API_021_ResrAssured_Assertion" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TA_API_Practice_UsingMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.lucky.Ex_04_Assertions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.lucky.Ex_04_Assertions" />
-      <option name="MAIN_CLASS_NAME" value="org.lucky.Ex_04_Assertions.API_021_ResrAssured_Assertion" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="API_022_TestNG_Assertion" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TA_API_Practice_UsingMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.lucky.Ex_04_Assertions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.lucky.Ex_04_Assertions" />
-      <option name="MAIN_CLASS_NAME" value="org.lucky.Ex_04_Assertions.API_022_TestNG_Assertion" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.API_028_ResrAssured_Jckson">
     <configuration name="API_024_ResrAssured_TestNG_AssertJ_Assertion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TA_API_Practice_UsingMaven" />
       <extension name="coverage">
@@ -194,13 +126,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="API_025_ResrAssured_Payload_Map" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TA_API_Practice_UsingMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lucky.Ex_05_PayloadManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.lucky.Ex_05_PayloadManagement" />
+      <option name="MAIN_CLASS_NAME" value="org.lucky.Ex_05_PayloadManagement.API_025_ResrAssured_Payload_Map" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="API_026_ResrAssured_Payload_POJO" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TA_API_Practice_UsingMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lucky.Ex_05_PayloadManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.lucky.Ex_05_PayloadManagement" />
+      <option name="MAIN_CLASS_NAME" value="org.lucky.Ex_05_PayloadManagement.API_026_ResrAssured_Payload_POJO" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="API_027_ResrAssured_Gson" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TA_API_Practice_UsingMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lucky.Ex_05_PayloadManagement.gson_demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.lucky.Ex_05_PayloadManagement.gson_demo" />
+      <option name="MAIN_CLASS_NAME" value="org.lucky.Ex_05_PayloadManagement.gson_demo.API_027_ResrAssured_Gson" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="API_028_ResrAssured_Jckson" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TA_API_Practice_UsingMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lucky.Ex_05_PayloadManagement.jackson_demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.lucky.Ex_05_PayloadManagement.jackson_demo" />
+      <option name="MAIN_CLASS_NAME" value="org.lucky.Ex_05_PayloadManagement.jackson_demo.API_028_ResrAssured_Jckson" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.API_028_ResrAssured_Jckson" />
+        <item itemvalue="TestNG.API_026_ResrAssured_Payload_POJO" />
+        <item itemvalue="TestNG.API_027_ResrAssured_Gson" />
         <item itemvalue="TestNG.API_024_ResrAssured_TestNG_AssertJ_Assertion" />
-        <item itemvalue="TestNG.API_022_TestNG_Assertion" />
-        <item itemvalue="TestNG.API_021_ResrAssured_Assertion" />
-        <item itemvalue="TestNG.API_020_TestNG_Invocation" />
-        <item itemvalue="TestNG.API_019_TestNG_AlwaysRun" />
+        <item itemvalue="TestNG.API_025_ResrAssured_Payload_Map" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737431723613</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="api">
+      <option name="closed" value="true" />
+      <created>1738133087425</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738133087425</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
